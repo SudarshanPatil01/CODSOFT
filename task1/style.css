@@ -19,7 +19,6 @@ html,body{
 #nav{
     height: 140px;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     padding: 0,50px;
@@ -27,7 +26,6 @@ html,body{
 }
 #nav-prt2{
     display: flex;
-    /* background-color: blue; */
     width: 80%;
     align-items: center;
     justify-content:space-between ;
@@ -59,8 +57,7 @@ html,body{
 #content{
     height: calc(100% - 140px);
     width: 100%;
-    /* background-color: lightblue; */
-     display: flex;
+    display: flex;
      justify-content:space-between ;
      position: relative;
 }
@@ -68,22 +65,17 @@ html,body{
 #left{
     width: 36%;
     height: 100%;
-    /* background-color: red; */
     padding: 100px 30px ;
 }
-#left h1 {
-    
-}
+
 #right{
     width: 36%;
     height: 100%;
-    /* background-color: red; */
     padding: 340px 140px;
 }
 #center{
     width: 26%;
     height: 100%;
-    /* background-color: red; */
     padding-top: 60px;
 }
 
@@ -143,7 +135,6 @@ html,body{
 }
 
 #right-elems{
-    /* background-color: red; */
     width: 350px;
 }
 #elem1{
@@ -151,7 +142,6 @@ html,body{
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    /* background-color: blue; */
     opacity: 0.6;
     border-bottom: 1px solid#fff;
 
